@@ -4,8 +4,6 @@ const { getTours, aliasTopTours, getTourStats, getMonthlyPlan, getTour, updateTo
 const authController = require('./../controllers/authController');
 const { protect, restrictTo } = authController
 const reviewRouter = require('./../routes/reviewRoutes');
-const { get } = require("mongoose");
-
 const router = express.Router();
 
 // router.param('id', checkId)
