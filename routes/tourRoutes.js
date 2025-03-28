@@ -2,7 +2,7 @@ const express = require("express");
 const tourController = require("./../controllers/tourController");
 const { getTours, aliasTopTours, getTourStats, getMonthlyPlan, getTour, updateTour, createTour, deleteTour, getToursWithin, getDistances,uploadTourImages,resizsTourImages } = tourController
 const authController = require('./../controllers/authController');
-const { protect, restrictTo } = authController
+const { protect, restrictTo } = authController;
 const reviewRouter = require('./../routes/reviewRoutes');
 const router = express.Router();
 
